@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D5EAB3C168D2DBD00E866A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5EAB3B168D2DBD00E866A8 /* Default-568h@2x.png */; };
+		D2249B011507E84F001584A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2249B001507E84F001584A8 /* UIKit.framework */; };
+		D2249B031507E84F001584A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2249B021507E84F001584A8 /* Foundation.framework */; };
+		D2249B051507E84F001584A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2249B041507E84F001584A8 /* CoreGraphics.framework */; };
+		D2249B0B1507E84F001584A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2249B091507E84F001584A8 /* InfoPlist.strings */; };
+		D2249B0D1507E84F001584A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2249B0C1507E84F001584A8 /* main.m */; };
+		D2249B111507E84F001584A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2249B101507E84F001584A8 /* AppDelegate.m */; };
+		D2249B141507E84F001584A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2249B131507E84F001584A8 /* ViewController.m */; };
+		D2249B211507E9B3001584A8 /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = D2249B201507E9B3001584A8 /* Gradient.m */; };
+		D2249B241507EA8A001584A8 /* PullToChange.m in Sources */ = {isa = PBXBuildFile; fileRef = D2249B231507EA8A001584A8 /* PullToChange.m */; };
+		D2249B261507EAAD001584A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2249B251507EAAD001584A8 /* QuartzCore.framework */; };
+		D24522F1150A5E8B001CD953 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D24522F0150A5E8B001CD953 /* blueArrow.png */; };
+		D24522F4150A5EC6001CD953 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D24522F3150A5EC6001CD953 /* blackArrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D5EAB3B168D2DBD00E866A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D2249AFC1507E84F001584A8 /* PullTemperatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullTemperatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2249B001507E84F001584A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2249B021507E84F001584A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2249B041507E84F001584A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2249B081507E84F001584A8 /* PullTemperatures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullTemperatures-Info.plist"; sourceTree = "<group>"; };
+		D2249B0A1507E84F001584A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2249B0C1507E84F001584A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2249B0E1507E84F001584A8 /* PullTemperatures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullTemperatures-Prefix.pch"; sourceTree = "<group>"; };
+		D2249B0F1507E84F001584A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2249B101507E84F001584A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2249B121507E84F001584A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2249B131507E84F001584A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2249B1F1507E9B3001584A8 /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
+		D2249B201507E9B3001584A8 /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
+		D2249B221507EA8A001584A8 /* PullToChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToChange.h; sourceTree = "<group>"; };
+		D2249B231507EA8A001584A8 /* PullToChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToChange.m; sourceTree = "<group>"; };
+		D2249B251507EAAD001584A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D24522F0150A5E8B001CD953 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		D24522F3150A5EC6001CD953 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2249AF91507E84F001584A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2249B261507EAAD001584A8 /* QuartzCore.framework in Frameworks */,
+				D2249B011507E84F001584A8 /* UIKit.framework in Frameworks */,
+				D2249B031507E84F001584A8 /* Foundation.framework in Frameworks */,
+				D2249B051507E84F001584A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2249AF11507E84E001584A8 = {
+			isa = PBXGroup;
+			children = (
+				8D5EAB3B168D2DBD00E866A8 /* Default-568h@2x.png */,
+				D2249B061507E84F001584A8 /* PullTemperatures */,
+				D2249AFF1507E84F001584A8 /* Frameworks */,
+				D2249AFD1507E84F001584A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2249AFD1507E84F001584A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2249AFC1507E84F001584A8 /* PullTemperatures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2249AFF1507E84F001584A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2249B251507EAAD001584A8 /* QuartzCore.framework */,
+				D2249B001507E84F001584A8 /* UIKit.framework */,
+				D2249B021507E84F001584A8 /* Foundation.framework */,
+				D2249B041507E84F001584A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2249B061507E84F001584A8 /* PullTemperatures */ = {
+			isa = PBXGroup;
+			children = (
+				D24522F0150A5E8B001CD953 /* blueArrow.png */,
+				D24522F3150A5EC6001CD953 /* blackArrow.png */,
+				D2249B0F1507E84F001584A8 /* AppDelegate.h */,
+				D2249B101507E84F001584A8 /* AppDelegate.m */,
+				D2249B121507E84F001584A8 /* ViewController.h */,
+				D2249B131507E84F001584A8 /* ViewController.m */,
+				D2249B1F1507E9B3001584A8 /* Gradient.h */,
+				D2249B201507E9B3001584A8 /* Gradient.m */,
+				D2249B221507EA8A001584A8 /* PullToChange.h */,
+				D2249B231507EA8A001584A8 /* PullToChange.m */,
+				D2249B071507E84F001584A8 /* Supporting Files */,
+			);
+			path = PullTemperatures;
+			sourceTree = "<group>";
+		};
+		D2249B071507E84F001584A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2249B081507E84F001584A8 /* PullTemperatures-Info.plist */,
+				D2249B091507E84F001584A8 /* InfoPlist.strings */,
+				D2249B0C1507E84F001584A8 /* main.m */,
+				D2249B0E1507E84F001584A8 /* PullTemperatures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2249AFB1507E84F001584A8 /* PullTemperatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2249B1A1507E84F001584A8 /* Build configuration list for PBXNativeTarget "PullTemperatures" */;
+			buildPhases = (
+				D2249AF81507E84F001584A8 /* Sources */,
+				D2249AF91507E84F001584A8 /* Frameworks */,
+				D2249AFA1507E84F001584A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullTemperatures;
+			productName = PullTemperatures;
+			productReference = D2249AFC1507E84F001584A8 /* PullTemperatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2249AF31507E84E001584A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D2249AF61507E84E001584A8 /* Build configuration list for PBXProject "PullTemperatures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2249AF11507E84E001584A8;
+			productRefGroup = D2249AFD1507E84F001584A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2249AFB1507E84F001584A8 /* PullTemperatures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2249AFA1507E84F001584A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2249B0B1507E84F001584A8 /* InfoPlist.strings in Resources */,
+				D24522F1150A5E8B001CD953 /* blueArrow.png in Resources */,
+				D24522F4150A5EC6001CD953 /* blackArrow.png in Resources */,
+				8D5EAB3C168D2DBD00E866A8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2249AF81507E84F001584A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2249B0D1507E84F001584A8 /* main.m in Sources */,
+				D2249B111507E84F001584A8 /* AppDelegate.m in Sources */,
+				D2249B141507E84F001584A8 /* ViewController.m in Sources */,
+				D2249B211507E9B3001584A8 /* Gradient.m in Sources */,
+				D2249B241507EA8A001584A8 /* PullToChange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2249B091507E84F001584A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2249B0A1507E84F001584A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2249B181507E84F001584A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2249B191507E84F001584A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2249B1B1507E84F001584A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullTemperatures/PullTemperatures-Prefix.pch";
+				INFOPLIST_FILE = "PullTemperatures/PullTemperatures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2249B1C1507E84F001584A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullTemperatures/PullTemperatures-Prefix.pch";
+				INFOPLIST_FILE = "PullTemperatures/PullTemperatures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2249AF61507E84E001584A8 /* Build configuration list for PBXProject "PullTemperatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2249B181507E84F001584A8 /* Debug */,
+				D2249B191507E84F001584A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2249B1A1507E84F001584A8 /* Build configuration list for PBXNativeTarget "PullTemperatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2249B1B1507E84F001584A8 /* Debug */,
+				D2249B1C1507E84F001584A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2249AF31507E84E001584A8 /* Project object */;
+}
